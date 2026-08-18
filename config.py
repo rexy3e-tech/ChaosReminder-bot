@@ -3,8 +3,8 @@ import os
 REMINDER_BOT_TOKEN = os.environ.get("REMINDER_BOT_TOKEN")
 SELFBOT_TOKEN      = os.environ.get("SELFBOT_TOKEN")
 
-BUMP_CHANNEL_ID = int(os.environ.get("BUMP_CHANNEL_ID", "1494383044365254746"))
-BUMP_ROLE_ID    = int(os.environ.get("BUMP_ROLE_ID",    "1509245424374911047"))
+BUMP_CHANNEL_ID = int(os.environ.get("BUMP_CHANNEL_ID", ""))
+BUMP_ROLE_ID    = int(os.environ.get("BUMP_ROLE_ID",    ""))
 
 # time in seconds after last bump when reminder fires
 REMINDER_OFFSET = 2.25 * 3600   # 2 hrs 15 min
