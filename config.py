@@ -16,5 +16,5 @@ CYCLE_INTERVALS = [
     4.25 * 3600,   # cycle 2 → 4 hrs 15 min
 ]
 
-DISBOARD_APP_ID = "302050872383242240"
+DISBOARD_APP_ID = ""
 STATE_FILE      = "state.json"
