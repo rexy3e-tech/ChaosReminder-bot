@@ -20,8 +20,8 @@ log = logging.getLogger(__name__)
 
 HEADERS = {
     "Authorization": SELFBOT_TOKEN,
-    "Content-Type":  "application/json",
-    "User-Agent":    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    "Content-Type":  "",
+    "User-Agent":    ""
 }
 
 
